@@ -25,6 +25,7 @@ This project demonstrates a real-time IoT pipeline that captures air quality sen
 
 ## System Architecture
 
+![Picture5](https://github.com/user-attachments/assets/4c5e7843-3843-4508-9feb-4a6fe964f964)
 
 
 ---
@@ -90,30 +91,33 @@ This project demonstrates a real-time IoT pipeline that captures air quality sen
 
 
 - **Real-Time Dashboard**  
-  ![Dashboard Screenshot](screenshots/dashboard.png)
+  ##![Picture1](https://github.com/user-attachments/assets/b75bbfcf-9b49-4423-bf96-736dc027d5a0)
+  
 
 - **Forecast vs Actual (Anomaly Highlighted)**  
-  ![Anomaly Detection](screenshots/anomalies.png)
+  ![realtime-anomalyDetection](https://github.com/user-attachments/assets/228f6674-00e1-4d71-a0c8-fe93f1addf0b)
+
+
 
 - **BigQuery ML Query Example**  
-  ![BigQuery Forecast](screenshots/bigquery_forecast.png)
+  
+---![performance-comparision](https://github.com/user-attachments/assets/12954650-9dad-479e-8856-21d3ac6144c7)
 
----
 
-## 📁 Project Structure
+ 📁 Project Structure
 
 ```bash
 ├── esp32/                         # Arduino code for ESP32 + MQ135
 │   └── esp32_mq135_sensor.ino
-├── apps_script/                  # Google Apps Script code
+├── apps_script/                  
 │   └── code.gs
 ├── bigquery/
 │   ├── create_tables.sql
 │   ├── train_model.sql
 │   ├── forecast.sql
 │   └── detect_anomaly.sql
-├── looker_studio/                # Screenshot references or exported reports
-├── screenshots/                  # Screenshots for report
+├── looker_studio/                
+├── screenshots/                  
 ├── README.md
 └── LICENSE
 ```
